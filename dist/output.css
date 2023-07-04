@@ -630,6 +630,10 @@ video {
   height: 250px;
 }
 
+.h-\[100vh\] {
+  height: 100vh;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -705,6 +709,11 @@ video {
   fill: currentColor;
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .p-5 {
   padding: 1.25rem;
 }
@@ -772,6 +781,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.opacity-25 {
+  opacity: 0.25;
 }
 
 .shadow-lg {
